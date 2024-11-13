@@ -1,0 +1,12 @@
+Para compilar use:
+gcc -Wall -o teste mergesort.c funcoes.c -lpthread
+
+Para testar com os arquivos use:
+Teste 1
+./teste 2 nmrs1.dat nmrs2.dat nmrs3.dat nmrs4.dat nmrs5.dat -o saida.txt
+
+Teste 2 
+./teste 4 nmrs1.dat nmrs2.dat nmrs3.dat nmrs4.dat nmrs5.dat -o saida.txt
+
+Teste 3
+./teste 8 nmrs1.dat nmrs2.dat nmrs3.dat nmrs4.dat nmrs5.dat -o saida.txt
